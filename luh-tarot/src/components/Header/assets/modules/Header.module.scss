@@ -1,0 +1,45 @@
+.header {
+  background-color: black;
+  padding: 16px 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*border-bottom: 2px solid rgb(161, 161, 12);*/
+
+  @media screen and (max-width: 1024px) {
+    padding: 16px 40px;
+  }
+
+  &__logos {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo {
+    img {
+      height: 50px;
+    }
+  }
+
+  &__img {
+    img {
+      height: 70px;
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+
+      a {
+        padding: 6px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
