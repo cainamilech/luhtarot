@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/luhtarot/static/css/main.64ed282d.css",
+    "main.css": "/luhtarot/static/css/main.c91ad425.css",
     "main.js": "/luhtarot/static/js/main.9581520d.js",
     "static/media/fundogesso.jpg": "/luhtarot/static/media/fundogesso.3d35adcbfd00d27ef77c.jpg",
     "static/media/fundo.png": "/luhtarot/static/media/fundo.7680a0aecd9fc782ef26.png",
@@ -11,11 +11,11 @@
     "static/media/whatsapp.svg": "/luhtarot/static/media/whatsapp.b38ab38d5d2c2e18fbc527a3e470702c.svg",
     "static/media/arrow.svg": "/luhtarot/static/media/arrow.86e8426f86376423a1a55bed6eb038be.svg",
     "index.html": "/luhtarot/index.html",
-    "main.64ed282d.css.map": "/luhtarot/static/css/main.64ed282d.css.map",
+    "main.c91ad425.css.map": "/luhtarot/static/css/main.c91ad425.css.map",
     "main.9581520d.js.map": "/luhtarot/static/js/main.9581520d.js.map"
   },
   "entrypoints": [
-    "static/css/main.64ed282d.css",
+    "static/css/main.c91ad425.css",
     "static/js/main.9581520d.js"
   ]
 }
