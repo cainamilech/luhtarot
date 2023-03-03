@@ -17,15 +17,15 @@ const Header = () => {
 
       <nav>
         <ul>
-          <a href="">
+          <a href="#tarot">
             <li>Tarot</li>
           </a>
 
-          <a href="">
+          <a href="#atendimentos">
             <li>Atendimentos</li>
           </a>
 
-          <a href="">
+          <a href="#contato">
             <li>Contato</li>
           </a>
         </ul>
