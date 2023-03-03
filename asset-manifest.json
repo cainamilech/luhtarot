@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/luhtarot/static/css/main.b9bb7d16.css",
+    "main.js": "/luhtarot/static/js/main.a13313d3.js",
+    "static/media/fundo.png": "/luhtarot/static/media/fundo.7680a0aecd9fc782ef26.png",
+    "static/media/exemplo.jpg": "/luhtarot/static/media/exemplo.36d1b3a9a540c4c22fde.jpg",
+    "static/media/logo.png": "/luhtarot/static/media/logo.66bc5437d5c15ae01880.png",
+    "static/media/imglogo.png": "/luhtarot/static/media/imglogo.60180c8abc7b147e4dc4.png",
+    "static/media/tarot.jpg": "/luhtarot/static/media/tarot.897ae10bf7d71d7e0092.jpg",
+    "static/media/whatsapp.svg": "/luhtarot/static/media/whatsapp.b38ab38d5d2c2e18fbc527a3e470702c.svg",
+    "static/media/arrow.svg": "/luhtarot/static/media/arrow.86e8426f86376423a1a55bed6eb038be.svg",
+    "index.html": "/luhtarot/index.html",
+    "main.b9bb7d16.css.map": "/luhtarot/static/css/main.b9bb7d16.css.map",
+    "main.a13313d3.js.map": "/luhtarot/static/js/main.a13313d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9bb7d16.css",
+    "static/js/main.a13313d3.js"
+  ]
+}
