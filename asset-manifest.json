@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/luhtarot/static/css/main.9ab8d505.css",
-    "main.js": "/luhtarot/static/js/main.3b47d4ce.js",
+    "main.css": "/luhtarot/static/css/main.7c30bef3.css",
+    "main.js": "/luhtarot/static/js/main.1a040257.js",
     "static/media/fundo.png": "/luhtarot/static/media/fundo.7680a0aecd9fc782ef26.png",
     "static/media/lu2.png": "/luhtarot/static/media/lu2.6b7edcd65a714f19df26.png",
     "static/media/logo.png": "/luhtarot/static/media/logo.66bc5437d5c15ae01880.png",
@@ -12,11 +12,11 @@
     "static/media/whatsapp.svg": "/luhtarot/static/media/whatsapp.b38ab38d5d2c2e18fbc527a3e470702c.svg",
     "static/media/arrow.svg": "/luhtarot/static/media/arrow.86e8426f86376423a1a55bed6eb038be.svg",
     "index.html": "/luhtarot/index.html",
-    "main.9ab8d505.css.map": "/luhtarot/static/css/main.9ab8d505.css.map",
-    "main.3b47d4ce.js.map": "/luhtarot/static/js/main.3b47d4ce.js.map"
+    "main.7c30bef3.css.map": "/luhtarot/static/css/main.7c30bef3.css.map",
+    "main.1a040257.js.map": "/luhtarot/static/js/main.1a040257.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ab8d505.css",
-    "static/js/main.3b47d4ce.js"
+    "static/css/main.7c30bef3.css",
+    "static/js/main.1a040257.js"
   ]
 }
