@@ -11,12 +11,6 @@ ul {
 }
 
 a {
-  color: white;
   text-decoration: none;
-  cursor: pointer;
-
-  &:hover {
-    background-color: white;
-    color: black;
-  }
+  color: white;
 }

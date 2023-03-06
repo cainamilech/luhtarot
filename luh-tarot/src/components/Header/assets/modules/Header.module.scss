@@ -39,6 +39,11 @@
       a {
         padding: 6px;
         border-radius: 5px;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
       }
     }
   }

@@ -1,4 +1,7 @@
 import main from "./assets/modules/Main.module.scss";
+
+import lu from "./assets/imgs/lu.jpg";
+import lu2 from "./assets/imgs/lu2.png";
 import exemplo from "./assets/imgs/exemplo.jpg";
 import instagram from "./assets/imgs/instagram.png";
 import facebook from "./assets/imgs/facebook.png";
@@ -6,6 +9,7 @@ import tiktok from "./assets/imgs/tiktok.png";
 import youtube from "./assets/imgs/youtube.png";
 import email from "./assets/imgs/email.png";
 import whatsapp from "./assets/imgs/whatsapp.png";
+import kwai from "./assets/imgs/kwai.png";
 
 const Main = () => {
   return (
@@ -25,14 +29,54 @@ const Main = () => {
           <small>ACOMPANHE AS REDES SOCIAIS PARA LIVES E DICAS</small>
 
           <ul>
-            <a href="">
-              <li>Instagram</li>
+            <a
+              href="https://www.instagram.com/luhtarot/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={instagram} alt="instagram" />
+              </li>
             </a>
-            <a href="">
-              <li>YouTube</li>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=100078378574735"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={facebook} alt="facebook" />
+              </li>
             </a>
-            <a href="">
-              <li>TikTok</li>
+
+            <a
+              href="https://www.tiktok.com/@luhtarot7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={tiktok} alt="tiktok" />
+              </li>
+            </a>
+
+            <a
+              href="https://kwai-video.com/u/@luhtarot/CdclSaZT"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={kwai} alt="kwai" />
+              </li>
+            </a>
+
+            <a
+              href="https://www.youtube.com/@luhtarot"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={youtube} alt="youtube" />
+              </li>
             </a>
           </ul>
         </div>
@@ -41,7 +85,7 @@ const Main = () => {
       <section id="tarot" className={main["conteudo"]}>
         <div>
           <div className={main["conteudo__h2"]}>
-            <h2>Entenda mais sobre meu TAROT</h2>
+            <h2>MINHA TAROLOGIA</h2>
           </div>
 
           <h3>QUEM SOU EU</h3>
@@ -87,13 +131,13 @@ const Main = () => {
         </div>
 
         <figure>
-          <img src={exemplo} alt="exemplo" />
+          <img src={lu} alt="luh tarot" />
         </figure>
       </section>
 
       <section id="atendimentos" className={main["conteudo2"]}>
         <figure>
-          <img src={exemplo} alt="exemplo" />
+          <img src={lu2} alt="luh tarot" />
         </figure>
 
         <div>
@@ -143,28 +187,62 @@ const Main = () => {
           </div>
 
           <ul>
+            <a
+              href="https://www.instagram.com/luhtarot/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={instagram} alt="instagram" /> Instagram
+              </li>
+            </a>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=100078378574735"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={facebook} alt="facebook" /> Facebook
+              </li>
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@luhtarot7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={tiktok} alt="tiktok" /> Tiktok
+              </li>
+            </a>
+
+            <a
+              href="https://kwai-video.com/u/@luhtarot/CdclSaZT"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={kwai} alt="kwai" /> Kwai
+              </li>
+            </a>
+
+            <a
+              href="https://www.youtube.com/@luhtarot"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li>
+                <img src={youtube} alt="youtube" /> YouTube
+              </li>
+            </a>
+
             <li>
-              <img src={instagram} alt="instagram" /> <a href="">Instagram</a>
+              <img src={whatsapp} alt="whatsapp" /> WhatsApp: 53 8427-9393
             </li>
 
             <li>
-              <img src={facebook} alt="facebook" /> <a href="">Facebook</a>
-            </li>
-
-            <li>
-              <img src={tiktok} alt="tiktok" /> <a href="">Tiktok</a>
-            </li>
-
-            <li>
-              <img src={youtube} alt="youtube" /> <a href="">YouTube</a>
-            </li>
-
-            <li>
-              <img src={whatsapp} alt="whatsapp" /> WhatsApp: 53 99999 9999
-            </li>
-
-            <li>
-              <img src={email} alt="email" /> E-mail: lucialucia@gmail.com
+              <img src={email} alt="email" /> E-mail: luprietto@hotmail.com
             </li>
           </ul>
         </div>
