@@ -6,4 +6,12 @@
   align-items: center;
   background-color: black;
   color: white;
+
+  a {
+    font-size: 13px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }

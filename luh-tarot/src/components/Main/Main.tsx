@@ -88,6 +88,11 @@ const Main = () => {
             <h2>MINHA TAROLOGIA</h2>
           </div>
 
+          <p>
+            Diálogo fraterno | Fluidoterapia | Tarot Terapêutico |
+            Autoconhecimento | Alinhamento Energético
+          </p>
+
           <h3>QUEM SOU EU</h3>
           <p>
             O meu trabalho no Tarot é ajudar as pessoas, transmutar energias
@@ -248,7 +253,7 @@ const Main = () => {
         </div>
 
         <div>
-          <div className={main["conteudo__h2"]}>
+          <div className={main["conteudo3__h2"]}>
             <h2>COMO CHEGAR</h2>
           </div>
 
