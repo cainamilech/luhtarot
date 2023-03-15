@@ -2,7 +2,6 @@ import main from "./assets/modules/Main.module.scss";
 
 import lu from "./assets/imgs/lu.jpg";
 import lu2 from "./assets/imgs/lu2.png";
-import exemplo from "./assets/imgs/exemplo.jpg";
 import instagram from "./assets/imgs/instagram.png";
 import facebook from "./assets/imgs/facebook.png";
 import tiktok from "./assets/imgs/tiktok.png";
@@ -267,6 +266,7 @@ const Main = () => {
               width="300"
               height="200"
               loading="lazy"
+              title="mapa"
             ></iframe>
           </div>
         </div>
