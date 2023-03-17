@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/luhtarot/static/css/main.7c30bef3.css",
-    "main.js": "/luhtarot/static/js/main.ddaaf7fc.js",
-    "static/media/fundo.png": "/luhtarot/static/media/fundo.7680a0aecd9fc782ef26.png",
-    "static/media/lu2.png": "/luhtarot/static/media/lu2.6b7edcd65a714f19df26.png",
-    "static/media/logo.png": "/luhtarot/static/media/logo.66bc5437d5c15ae01880.png",
-    "static/media/sala.jpeg": "/luhtarot/static/media/sala.1c92792964516183e2dc.jpeg",
-    "static/media/imglogo.png": "/luhtarot/static/media/imglogo.60180c8abc7b147e4dc4.png",
-    "static/media/lu.jpg": "/luhtarot/static/media/lu.2b4f47eb60dc3426b281.jpg",
-    "static/media/tarotfundo.jpg": "/luhtarot/static/media/tarotfundo.b83efb4d2884089cdf1f.jpg",
-    "static/media/whatsapp.svg": "/luhtarot/static/media/whatsapp.b38ab38d5d2c2e18fbc527a3e470702c.svg",
-    "static/media/arrow.svg": "/luhtarot/static/media/arrow.86e8426f86376423a1a55bed6eb038be.svg",
-    "index.html": "/luhtarot/index.html",
-    "main.7c30bef3.css.map": "/luhtarot/static/css/main.7c30bef3.css.map",
-    "main.ddaaf7fc.js.map": "/luhtarot/static/js/main.ddaaf7fc.js.map"
+    "main.css": "/static/css/main.8d409562.css",
+    "main.js": "/static/js/main.16b6a697.js",
+    "static/media/fundo.png": "/static/media/fundo.7680a0aecd9fc782ef26.png",
+    "static/media/lu2.png": "/static/media/lu2.6b7edcd65a714f19df26.png",
+    "static/media/logo.png": "/static/media/logo.66bc5437d5c15ae01880.png",
+    "static/media/sala.jpeg": "/static/media/sala.1c92792964516183e2dc.jpeg",
+    "static/media/imglogo.png": "/static/media/imglogo.60180c8abc7b147e4dc4.png",
+    "static/media/lu.jpg": "/static/media/lu.2b4f47eb60dc3426b281.jpg",
+    "static/media/tarotfundo.jpg": "/static/media/tarotfundo.b83efb4d2884089cdf1f.jpg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.b38ab38d5d2c2e18fbc527a3e470702c.svg",
+    "static/media/arrow.svg": "/static/media/arrow.86e8426f86376423a1a55bed6eb038be.svg",
+    "index.html": "/index.html",
+    "main.8d409562.css.map": "/static/css/main.8d409562.css.map",
+    "main.16b6a697.js.map": "/static/js/main.16b6a697.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c30bef3.css",
-    "static/js/main.ddaaf7fc.js"
+    "static/css/main.8d409562.css",
+    "static/js/main.16b6a697.js"
   ]
 }
