@@ -169,9 +169,10 @@ const Main = () => {
           <h3>PRESENCIAL</h3>
 
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry. Lorem Ipsum
+            Tarot em Pelotas com atendimento presencial is simply dummy text of
+            the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is
+            simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum
           </p>
 
           <p>
