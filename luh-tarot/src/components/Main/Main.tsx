@@ -2,6 +2,7 @@ import main from "./assets/modules/Main.module.scss";
 
 import lu from "./assets/imgs/lu.jpg";
 import lu2 from "./assets/imgs/lu2.png";
+
 import instagram from "./assets/imgs/instagram.png";
 import facebook from "./assets/imgs/facebook.png";
 import tiktok from "./assets/imgs/tiktok.png";
@@ -9,6 +10,9 @@ import youtube from "./assets/imgs/youtube.png";
 import email from "./assets/imgs/email.png";
 import whatsapp from "./assets/imgs/whatsapp.png";
 import kwai from "./assets/imgs/kwai.png";
+
+import lu1 from "./assets/imgs/lu1.jpg";
+import lu5 from "./assets/imgs/lu5.jpg";
 
 const Main = () => {
   return (
@@ -95,10 +99,10 @@ const Main = () => {
         <div className={main["separador-pequeno"]}></div>
       </div>
 
-      <section id="tarot" className={main["conteudo"]}>
+      <section id="sobre-mim" className={main["conteudo"]}>
         <div>
-          <div className={main["conteudo__h2"]}>
-            <h2>QUEM SOU EU</h2>
+          <div className={main["conteudo__h3"]}>
+            <h3>SOBRE MIM</h3>
           </div>
 
           <p>
@@ -145,17 +149,17 @@ const Main = () => {
         </div>
 
         <figure>
-          <img src={lu} alt="luh tarot" />
+          <img src={lu5} alt="luh tarot" />
         </figure>
       </section>
 
-      <section id="formacao" className={main["conteudoformacao"]}>
+      <section className={main["conteudoformacao"]}>
         <div>
-          <div className={main["conteudoformacao__h2"]}>
-            <h2>FORMAÇÃO E CURSOS</h2>
+          <div className={main["conteudoformacao__h3"]}>
+            <h3>FORMAÇÃO E CURSOS</h3>
           </div>
 
-          <p>Graduada em artes Visuais;</p>
+          <p>Graduada em Artes Visuais;</p>
           <p>
             Tarologia Cartomancia: Baralho Cigano, Guardiões, Osho. Loções Ervas
             e Banhos ;
@@ -173,33 +177,39 @@ const Main = () => {
         </div>
       </section>
 
-      <section id="atendimentos" className={main["conteudotarot"]}>
+      <section id="tarot" className={main["conteudotarot"]}>
         <figure>
-          <img src={lu2} alt="luh tarot" />
+          <img src={lu1} alt="luh tarot" />
         </figure>
 
         <div>
-          <div className={main["conteudotarot__h2"]}>
-            <h2>TAROT</h2>
+          <div className={main["conteudotarot__h3"]}>
+            <h3>TAROT</h3>
           </div>
 
           <p>
             Tarot, é o caminho do autoconhecimento. A sabedoria interna, ele
             busca as energias positivas para que possam te auxiliar nas tuas
             decisões. Jamais, deve ser confundido com adivinhação, mas sim, uma
-            projeção de possibilidades futuras. O autoconhecimento que o Tarot
-            revela, é a grande virada de chave para a solução de muitos caminhos
-            para alcançar melhorias, realizar ações, conquistar desejos e sem
-            dúvida alcançar a tão almejada prosperidade em nossas vidas.
+            projeção de possibilidades futuras.
+          </p>
+
+          <p>
+            O autoconhecimento que o Tarot revela, é a grande virada de chave
+            para a solução de muitos caminhos para alcançar melhorias, realizar
+            ações, conquistar desejos e sem dúvida alcançar a tão almejada
+            prosperidade em nossas vidas.
           </p>
         </div>
       </section>
 
       <section id="atendimentos" className={main["conteudo2"]}>
         <div>
-          <div className={main["conteudo2__h2"]}>
-            <h2>ATENDIMENTOS</h2>
+          <div className={main["conteudo2__h3"]}>
+            <h3>ATENDIMENTOS</h3>
           </div>
+
+          <h4>Como funciona uma consulta de Cartas de Tarot?</h4>
 
           <p>
             Nas consultas, tanto online como presencial, eu faço presente na
@@ -209,7 +219,6 @@ const Main = () => {
             suas propriedades químicas e físicas que trazem para o campo
             eletromagnético a elevação positiva e a harmonização.
           </p>
-          <p>Como funciona as consultas de Cartas?</p>
 
           <p>
             As consultas tem duração de aproximadamente 30 minutos á 1hora e
@@ -217,8 +226,9 @@ const Main = () => {
             mediante pagamento comprovado.
           </p>
 
-          <p>
-            <strong>Tiragem completa (+- 90 minutos): </strong>
+          <p className={main["conteudo2__tiragem"]}>
+            <strong>Tiragem completa - Tempo médio: 1h30min</strong>
+            <br />
             Abertura com oração ao Divino Deus, respiração de alinhamento de
             chakras e passeio energético. À seguir, começamos nosso jogo, começo
             com a carta da tua energia, com os Arcanos maiores do Tarot, depois
@@ -231,73 +241,67 @@ const Main = () => {
             Esta tiragem é recomendada de 3 a 6 meses.
           </p>
 
-          <p>
-            <strong>Tiragem Completa (1 hora): </strong>
+          <p className={main["conteudo2__tiragem"]}>
+            <strong>Tiragem Completa - Tempo médio: 1 hora</strong>
+            <br />
             Abertura com oração ao Divino Deus. Respiração de Alinhamento de
             Chakras, Indução de imagem e cores para concentração. Jogo a energia
             atual, logo, abertura de cartas. Respiração, oração de encerramento
             em agradecimento a Deus e aos mentores espirituais.
           </p>
 
-          <p>
-            {" "}
+          <p className={main["conteudo2__tiragem"]}>
             <strong>
-              Tiragem sobre um setor (amor, financeiro, afetivo...) (30 min):{" "}
-            </strong>{" "}
-            Abertura com oração ao Divino Deus. Respiração, cor e imagem.
+              Tiragem sobre um setor (Exemplo: Amor, financeiro, afetivo...) -
+              Tempo médio: 30 minutos
+            </strong>
+            <br /> Abertura com oração ao Divino Deus. Respiração, cor e imagem.
             Abertura das cartas. Respiração, oração de encerramento em
-            agradecimento a Deus e aos mentores espirituais.{" "}
+            agradecimento a Deus e aos mentores espirituais.
           </p>
 
-          <p>
-            <strong>Tiragem de perguntas: </strong> Podem ser: 1, 3, 5, 7
-            perguntas (valores á consultar) Perguntas somente objetivas, não
-            respondo setor, caso quiser, contratar tiragem de 30 min.
-            Respiração, imagem e cor, logo abertura das cartas.{" "}
+          <p className={main["conteudo2__tiragem"]}>
+            <strong>Tiragem de perguntas: </strong>
+            <br /> Podem ser: 1, 3, 5, 7 perguntas (valores á consultar)
+            Perguntas somente objetivas, não respondo setor, caso quiser,
+            contratar tiragem de 30 min. Respiração, imagem e cor, logo abertura
+            das cartas.
           </p>
 
           <p>*Toda e qualquer consulta extremamente SIGILOSA.</p>
 
-          <h3>ONLINE</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type een the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type
-          </p>
+          <div className={main["conteudo2__opcoes"]}>
+            <div className={main["conteudo2__opcoes__online"]}>
+              <h5>ONLINE</h5>
 
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type
-          </p>
+              <p>
+                A energia e a vibração ultrapassam qualquer barreira de
+                distância, pois o que vale é a FÉ, concentração e a intenção. No
+                ato do agendamento, mediante pagamento comprovado, será enviado
+                pré-requisitos que devem seguir para o atendimento online.
+              </p>
+            </div>
 
-          <h3>PRESENCIAL</h3>
+            <div className={main["conteudo2__opcoes__presencial"]}>
+              <h5>PRESENCIAL</h5>
 
-          <p>
-            Tarot em Pelotas com atendimento presencial is simply dummy text of
-            the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is
-            simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum
-          </p>
-
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has beenm has beenm has beenm has beenm has
-            beenm has beenLorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been of the printing and
-            typesetting industry. Lorem Ipsum has been
-          </p>
+              <p>
+                No ato do agendamento será dado as devidas explicações e tirada
+                de possíveis dúvidas. Minha sala para atendimentos presenciais
+                em Pelotas fica na Avenida Ernani Osmar Blass 222 Apto 4, no
+                Cohab Lindóia, Três Vendas. Conto com um ambiente confortável
+                para que possa ter uma boa experiência na consulta. O pagamento
+                pode ser realizado no dia da consulta, anterior ao atendimento.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="contato" className={main["conteudo3"]}>
         <div>
-          <div className={main["conteudo3__h2"]}>
-            <h2>CONTATO E REDES SOCIAIS</h2>
+          <div className={main["conteudo3__h3"]}>
+            <h3>CONTATO E REDES SOCIAIS</h3>
           </div>
 
           <ul>
@@ -362,8 +366,8 @@ const Main = () => {
         </div>
 
         <div>
-          <div className={main["conteudo3__h2"]}>
-            <h2>COMO CHEGAR</h2>
+          <div className={main["conteudo3__h3"]}>
+            <h3>COMO CHEGAR</h3>
           </div>
 
           <h4>ENDEREÇO</h4>

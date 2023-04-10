@@ -17,6 +17,10 @@ const Header = () => {
 
       <nav>
         <ul>
+          <a href="#sobre-mim">
+            <li>Sobre mim</li>
+          </a>
+
           <a href="#tarot">
             <li>Tarot</li>
           </a>
