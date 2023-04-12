@@ -1,8 +1,5 @@
 import main from "./assets/modules/Main.module.scss";
 
-import lu from "./assets/imgs/lu.jpg";
-import lu2 from "./assets/imgs/lu2.png";
-
 import instagram from "./assets/imgs/instagram.png";
 import facebook from "./assets/imgs/facebook.png";
 import tiktok from "./assets/imgs/tiktok.png";
@@ -116,11 +113,11 @@ const Main = () => {
 
           <p>
             O tarot mudou minha vida, passei a acreditar que a cartomancia é
-            minha vida, passei a seguir direções e descobrir caminhos prósperos
-            neste mundo das cartas. Meu objetivo hoje, é mostrar às pessoas o
-            quanto é divinatório e eficaz são as carta, pois direcionam e
-            mostram tendências futuras, trazendo a resolução de onde há dúvidas,
-            ao qual, o consulente não sabe como agir, muitas vezes é necessário
+            minha vida e a seguir direções e descobrir caminhos prósperos neste
+            mundo das cartas. Meu objetivo hoje, é mostrar às pessoas o quanto é
+            divinatório e eficaz são as carta, pois direcionam e mostram
+            tendências futuras, trazendo a resolução de onde há dúvidas, ao
+            qual, o consulente não sabe como agir, muitas vezes é necessário
             tomar medidas sobre nossas vidas, e que, dificilmente conseguimos.
             Trago essas respostas com muita confiança, pois meu principal
             objetivo é ajudar pessoas em tomadas de decisões e direcionamento na
@@ -218,9 +215,9 @@ const Main = () => {
           </p>
 
           <p className={main["conteudo2__paragrafo"]}>
-            As consultas tem duração de aproximadamente 30 minutos á 1hora e
-            meia, dependendo da tiragem contratada. Devem ser agendadas,
-            mediante pagamento comprovado.
+            As consultas tem duração de aproximadamente 30 minutos á 1h30,
+            dependendo da tiragem contratada. Devem ser agendadas, mediante
+            pagamento comprovado.
           </p>
 
           <div className={main["conteudo2__fundo"]}>
@@ -285,8 +282,9 @@ const Main = () => {
                   A energia e a vibração ultrapassam qualquer barreira de
                   distância, pois o que vale é a FÉ, concentração e a intenção.
                   No ato do agendamento, mediante pagamento comprovado, será
-                  enviado pré-requisitos que devem seguir para o atendimento
-                  online. A consulta é feita por chamada de vídeo no WhatsApp
+                  enviado pré-requisitos que devem ser seguidos para o
+                  atendimento online. A consulta é feita por chamada de vídeo no
+                  WhatsApp.
                 </p>
               </div>
             </div>
@@ -298,11 +296,11 @@ const Main = () => {
                 <p>
                   No ato do agendamento será dado as devidas explicações e
                   tirada de possíveis dúvidas. Minha sala para atendimentos
-                  presenciais em Pelotas - RS fica na Avenida Ernani Osmar Blass
-                  222 Apto 4, no Cohab Lindóia, Três Vendas. Conto com um
-                  ambiente confortável para que possa ter uma boa experiência na
-                  consulta. O pagamento pode ser realizado no dia da consulta,
-                  anterior ao atendimento.
+                  presenciais fica situado em Pelotas - RS fica na Avenida
+                  Ernani Osmar Blass 222 Apto 4, no Cohab Lindóia, Três Vendas.
+                  Conto com um ambiente confortável para que possa ter uma boa
+                  experiência na consulta. O pagamento pode ser realizado no dia
+                  da consulta, anterior ao atendimento.
                 </p>
               </div>
             </div>
@@ -313,7 +311,7 @@ const Main = () => {
       <section className={main["conteudovendas"]}>
         <h3>Agende sua consulta!</h3>
 
-        <a href="https://wa.me/5548996802068" target="_blank" rel="noreferrer">
+        <a href="https://wa.me/5553984279393" target="_blank" rel="noreferrer">
           <div className={main["conteudovendas__whats"]}>
             Clique aqui e me chame no WhatsApp
             <img src={whats} alt="icone do whatsapp" />
@@ -326,23 +324,35 @@ const Main = () => {
         </p>
 
         <div className={main["conteudovendas__valores"]}>
-          <div className={main["conteudovendas__valor"]}>
-            <span className={main["conteudovendas__valor__texto"]}>
-              1 pergunta
-            </span>
-            <span className={main["conteudovendas__valor__preco"]}>
-              R$ 10,00
-            </span>
-          </div>
+          <a
+            href="https://wa.me/5553984279393"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={main["conteudovendas__valor"]}>
+              <span className={main["conteudovendas__valor__texto"]}>
+                1 pergunta
+              </span>
+              <span className={main["conteudovendas__valor__preco"]}>
+                R$ 10,00
+              </span>
+            </div>
+          </a>
 
-          <div className={main["conteudovendas__valor"]}>
-            <span className={main["conteudovendas__valor__texto"]}>
-              2 perguntas
-            </span>
-            <span className={main["conteudovendas__valor__preco"]}>
-              R$ 20,00
-            </span>
-          </div>
+          <a
+            href="https://wa.me/5553984279393"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={main["conteudovendas__valor"]}>
+              <span className={main["conteudovendas__valor__texto"]}>
+                2 perguntas
+              </span>
+              <span className={main["conteudovendas__valor__preco"]}>
+                R$ 20,00
+              </span>
+            </div>
+          </a>
         </div>
       </section>
 

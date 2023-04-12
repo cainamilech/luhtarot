@@ -18,7 +18,7 @@ const FixedIcons = () => {
   return (
     <div className={icons["icons"]}>
       <a
-        href="https://wa.me/5548996802068"
+        href="https://wa.me/5553984279393"
         target="_blank"
         rel="noreferrer"
         className={icons["icons__whats"]}
