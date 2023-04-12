@@ -11,6 +11,8 @@ import email from "./assets/imgs/email.png";
 import whatsapp from "./assets/imgs/whatsapp.png";
 import kwai from "./assets/imgs/kwai.png";
 
+import whats from "./assets/imgs/whatsapp.svg";
+
 import lu1 from "./assets/imgs/lu1.jpg";
 import lu5 from "./assets/imgs/lu5.jpg";
 
@@ -20,11 +22,6 @@ const Main = () => {
       <div className={main["separador"]}></div>
       <section className={main["banner"]}>
         <h1>ESPECIALISTA EM TAROT ESPIRITUAL</h1>
-
-        <span>
-          Taróloga em Pelotas | DIÁLOGO FRATERNO | FLUIDOTERAPIA | Tarot
-          Terapêutico | Autoconhecimento | Alinhamento Energético
-        </span>
 
         <p>ATENDIMENTOS ONLINE E PRESENCIAIS</p>
 
@@ -87,12 +84,12 @@ const Main = () => {
 
       <div className={main["descricao"]}>
         <h2>
-          Tarot Terapêutico - Diálogo fraterno - Fluidoterapia - Alinhamento de
+          Tarot Terapêutico • Diálogo fraterno • Fluidoterapia • Alinhamento de
           Chakras
         </h2>
 
         <h2>
-          Passeio Energético - Magia com Loções - Limpeza Espiritual - Banhos
+          Passeio Energético • Magia com Loções • Limpeza Espiritual • Banhos
           com Ervas Naturais
         </h2>
 
@@ -119,7 +116,7 @@ const Main = () => {
 
           <p>
             O tarot mudou minha vida, passei a acreditar que a cartomancia é
-            minha vida, passei a seguir direções e descobri caminhos prósperos
+            minha vida, passei a seguir direções e descobrir caminhos prósperos
             neste mundo das cartas. Meu objetivo hoje, é mostrar às pessoas o
             quanto é divinatório e eficaz são as carta, pois direcionam e
             mostram tendências futuras, trazendo a resolução de onde há dúvidas,
@@ -131,10 +128,10 @@ const Main = () => {
           </p>
 
           <p>
-            Minha atuação principal é na cartomancia, tarot, Baralho Cigano,
+            Minha atuação principal é na Cartomancia, Tarot, Baralho Cigano,
             Guardiões, Osho, são meus instrumento de trabalho, onde ofereço
             orientações sobre vários setores: sentimentais, financeiro, desta
-            forma revelando ao meu consulente qual as melhorias necessárias em
+            forma revelando ao meu consulente quais as melhorias necessárias em
             seu comportamento para as resoluções de suas dificuldades
             encontradas na sua vida atual, podendo assim, modificá-la, trazendo
             um futuro mais próspero.
@@ -164,7 +161,7 @@ const Main = () => {
             Tarologia Cartomancia: Baralho Cigano, Guardiões, Osho. Loções Ervas
             e Banhos ;
           </p>
-          <p>Magias de LIMPEZA ESPIRITUAL E ABERTURA DE CAMINHO;</p>
+          <p>Magias de Limpeza Espiritual e Abertura de Caminho;</p>
           <p>Doutrina de Alan Kardec (FEB- Federação Espirita Brasileira);</p>
           <p>
             ESDE (Estudo Sistematizado da Doutrina Espírita: FUNDAMENTAL, TOMO
@@ -211,7 +208,7 @@ const Main = () => {
 
           <h4>Como funciona uma consulta de Cartas de Tarot?</h4>
 
-          <p>
+          <p className={main["conteudo2__paragrafo"]}>
             Nas consultas, tanto online como presencial, eu faço presente na
             minha mesa representantes dos 4 elementos, fogo, terra, ar e água.
             Exemplo: Cristais, velas, incensos, água, que servem para equilibrar
@@ -220,80 +217,131 @@ const Main = () => {
             eletromagnético a elevação positiva e a harmonização.
           </p>
 
-          <p>
+          <p className={main["conteudo2__paragrafo"]}>
             As consultas tem duração de aproximadamente 30 minutos á 1hora e
             meia, dependendo da tiragem contratada. Devem ser agendadas,
             mediante pagamento comprovado.
           </p>
 
-          <p className={main["conteudo2__tiragem"]}>
-            <strong>Tiragem completa - Tempo médio: 1h30min</strong>
-            <br />
-            Abertura com oração ao Divino Deus, respiração de alinhamento de
-            chakras e passeio energético. À seguir, começamos nosso jogo, começo
-            com a carta da tua energia, com os Arcanos maiores do Tarot, depois
-            com os 78 Arcanos identifico em 11 casas, setores da tua vida
-            (saude, amor, espiritualidade...), trazendo respectivamente as
-            respostas e as projeções futuras para os direcionamentos a estes
-            setores mencionados. Abro livremente para perguntas, encerrando
-            nosso jogo de cartas com mensagem de conselho. Respiração, oração de
-            encerramento em agradecimento a Deus e aos mentores espirituais.
-            Esta tiragem é recomendada de 3 a 6 meses.
-          </p>
+          <div className={main["conteudo2__fundo"]}>
+            <p className={main["conteudo2__tiragem"]}>
+              <strong>Tiragem completa - Tempo médio: 1h30min | R$90,00</strong>
+              <br />
+              Abertura com oração ao Divino Deus, respiração de alinhamento de
+              chakras e passeio energético. À seguir, começamos nosso jogo,
+              começo com a carta da tua energia, com os Arcanos maiores do
+              Tarot, depois com os 78 Arcanos identifico em 11 casas, setores da
+              tua vida (saude, amor, espiritualidade...), trazendo
+              respectivamente as respostas e as projeções futuras para os
+              direcionamentos a estes setores mencionados. Abro livremente para
+              perguntas, encerrando nosso jogo de cartas com mensagem de
+              conselho. Respiração, oração de encerramento em agradecimento a
+              Deus e aos mentores espirituais. Esta tiragem é recomendada de 3 a
+              6 meses.
+            </p>
+          </div>
 
-          <p className={main["conteudo2__tiragem"]}>
-            <strong>Tiragem Completa - Tempo médio: 1 hora</strong>
-            <br />
-            Abertura com oração ao Divino Deus. Respiração de Alinhamento de
-            Chakras, Indução de imagem e cores para concentração. Jogo a energia
-            atual, logo, abertura de cartas. Respiração, oração de encerramento
-            em agradecimento a Deus e aos mentores espirituais.
-          </p>
+          <div className={main["conteudo2__fundo"]}>
+            <p className={main["conteudo2__tiragem"]}>
+              <strong>Tiragem Completa - Tempo médio: 1 hora | R$70,00</strong>
+              <br />
+              Abertura com oração ao Divino Deus. Respiração de Alinhamento de
+              Chakras, Indução de imagem e cores para concentração. Jogo a
+              energia atual, logo, abertura de cartas. Respiração, oração de
+              encerramento em agradecimento a Deus e aos mentores espirituais.
+            </p>
+          </div>
 
-          <p className={main["conteudo2__tiragem"]}>
-            <strong>
-              Tiragem sobre um setor (Exemplo: Amor, financeiro, afetivo...) -
-              Tempo médio: 30 minutos
-            </strong>
-            <br /> Abertura com oração ao Divino Deus. Respiração, cor e imagem.
-            Abertura das cartas. Respiração, oração de encerramento em
-            agradecimento a Deus e aos mentores espirituais.
-          </p>
+          <div className={main["conteudo2__fundo"]}>
+            <p className={main["conteudo2__tiragem"]}>
+              <strong>
+                Tiragem sobre um setor (Exemplo: Amor, Financeiro, Afetivo) -
+                Tempo médio: 30 minutos | R$50,00
+              </strong>
+              <br /> Abertura com oração ao Divino Deus. Respiração, cor e
+              imagem. Abertura das cartas. Respiração, oração de encerramento em
+              agradecimento a Deus e aos mentores espirituais.
+            </p>
+          </div>
 
-          <p className={main["conteudo2__tiragem"]}>
-            <strong>Tiragem de perguntas: </strong>
-            <br /> Podem ser: 1, 3, 5, 7 perguntas (valores á consultar)
-            Perguntas somente objetivas, não respondo setor, caso quiser,
-            contratar tiragem de 30 min. Respiração, imagem e cor, logo abertura
-            das cartas.
-          </p>
+          <div className={main["conteudo2__fundo"]}>
+            <p className={main["conteudo2__tiragem"]}>
+              <strong>Tiragem de perguntas: </strong>
+              <br /> Podem ser: 1, 3, 5, 7 perguntas (valores á consultar)
+              Perguntas somente objetivas, não respondo setor, caso quiser,
+              contratar tiragem de 30 min. Respiração, imagem e cor, logo
+              abertura das cartas.
+            </p>
+          </div>
 
           <p>*Toda e qualquer consulta extremamente SIGILOSA.</p>
 
           <div className={main["conteudo2__opcoes"]}>
-            <div className={main["conteudo2__opcoes__online"]}>
-              <h5>ONLINE</h5>
+            <div className={main["conteudo2__fundo"]}>
+              <div className={main["conteudo2__opcoes__online"]}>
+                <h5>ONLINE</h5>
 
-              <p>
-                A energia e a vibração ultrapassam qualquer barreira de
-                distância, pois o que vale é a FÉ, concentração e a intenção. No
-                ato do agendamento, mediante pagamento comprovado, será enviado
-                pré-requisitos que devem seguir para o atendimento online.
-              </p>
+                <p>
+                  A energia e a vibração ultrapassam qualquer barreira de
+                  distância, pois o que vale é a FÉ, concentração e a intenção.
+                  No ato do agendamento, mediante pagamento comprovado, será
+                  enviado pré-requisitos que devem seguir para o atendimento
+                  online. A consulta é feita por chamada de vídeo no WhatsApp
+                </p>
+              </div>
             </div>
 
-            <div className={main["conteudo2__opcoes__presencial"]}>
-              <h5>PRESENCIAL</h5>
+            <div className={main["conteudo2__fundo"]}>
+              <div className={main["conteudo2__opcoes__presencial"]}>
+                <h5>PRESENCIAL</h5>
 
-              <p>
-                No ato do agendamento será dado as devidas explicações e tirada
-                de possíveis dúvidas. Minha sala para atendimentos presenciais
-                em Pelotas fica na Avenida Ernani Osmar Blass 222 Apto 4, no
-                Cohab Lindóia, Três Vendas. Conto com um ambiente confortável
-                para que possa ter uma boa experiência na consulta. O pagamento
-                pode ser realizado no dia da consulta, anterior ao atendimento.
-              </p>
+                <p>
+                  No ato do agendamento será dado as devidas explicações e
+                  tirada de possíveis dúvidas. Minha sala para atendimentos
+                  presenciais em Pelotas - RS fica na Avenida Ernani Osmar Blass
+                  222 Apto 4, no Cohab Lindóia, Três Vendas. Conto com um
+                  ambiente confortável para que possa ter uma boa experiência na
+                  consulta. O pagamento pode ser realizado no dia da consulta,
+                  anterior ao atendimento.
+                </p>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={main["conteudovendas"]}>
+        <h3>Agende sua consulta!</h3>
+
+        <a href="https://wa.me/5548996802068" target="_blank" rel="noreferrer">
+          <div className={main["conteudovendas__whats"]}>
+            Clique aqui e me chame no WhatsApp
+            <img src={whats} alt="icone do whatsapp" />
+          </div>
+        </a>
+
+        <p className={main["conteudovendas__subtitulo"]}>
+          Além das consultas de tiragens completas, podemos fazer consultas mais
+          rápidas por perguntas objetivas...
+        </p>
+
+        <div className={main["conteudovendas__valores"]}>
+          <div className={main["conteudovendas__valor"]}>
+            <span className={main["conteudovendas__valor__texto"]}>
+              1 pergunta
+            </span>
+            <span className={main["conteudovendas__valor__preco"]}>
+              R$ 10,00
+            </span>
+          </div>
+
+          <div className={main["conteudovendas__valor"]}>
+            <span className={main["conteudovendas__valor__texto"]}>
+              2 perguntas
+            </span>
+            <span className={main["conteudovendas__valor__preco"]}>
+              R$ 20,00
+            </span>
           </div>
         </div>
       </section>

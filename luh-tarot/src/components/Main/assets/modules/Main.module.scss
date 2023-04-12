@@ -97,8 +97,7 @@
 .descricao {
   justify-content: center;
   background-color: black;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding: 50px 16px 30px;
   color: white;
   h2 {
     font-weight: 400;
@@ -146,7 +145,7 @@
       border: 3px solid rgb(170, 122, 25);
 
       @media screen and (max-width: 1024px) {
-        height: 300px;
+        height: 400px;
       }
     }
   }
@@ -254,7 +253,7 @@
     justify-content: center;
     background-image: url("../imgs/fundo.png");
     width: max-content;
-    padding: 4px;
+    padding: 6px;
     margin: 15px auto 20px;
 
     h3 {
@@ -273,11 +272,22 @@
     }
   }
 
+  &__paragrafo {
+    margin-bottom: 10px;
+  }
+
+  &__fundo {
+    background-image: url("../imgs/fundo.png");
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+  }
+
   &__tiragem {
     background-color: whitesmoke;
     padding: 10px;
     border-radius: 16px;
-    box-shadow: 1px 1px 5px 1px black;
+    /*box-shadow: 1px 1px 5px 1px black;*/
   }
 
   &__opcoes {
@@ -294,9 +304,10 @@
     &__online,
     &__presencial {
       border-radius: 8px;
-      box-shadow: 5px 2px 20px 4px black;
-
+      box-shadow: 5px 2px 10px 4px black;
+      background-color: rgb(245, 170, 19);
       width: 400px;
+      min-height: 300px;
       padding: 20px;
       text-align: center;
 
@@ -314,14 +325,102 @@
 
         @media screen and (max-width: 1024px) {
           font-size: 20px;
-          margin: 5px;
+          margin: 6px auto;
         }
       }
     }
   }
+}
 
-  p {
-    margin-bottom: 12px;
+/*AGENDAR / VENDAS*/
+.conteudovendas {
+  padding: 40px 160px 60px;
+  color: white;
+  background-image: url("../imgs/tarotfundo.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 1024px) {
+    padding: 40px 20px;
+  }
+
+  h3 {
+    font-size: 50px;
+    margin-bottom: 10px;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 35px;
+    }
+  }
+
+  &__whats {
+    background-color: #1db855;
+    padding: 10px 20px 8px;
+    border-radius: 20px;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    display: flex;
+
+    img {
+      background-color: white;
+      border-radius: 50%;
+      padding: 2px;
+      width: 30px;
+      height: 30px;
+      margin-left: 10px;
+
+      @media screen and (max-width: 1024px) {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  &__subtitulo {
+    margin-bottom: 20px;
+    width: 480px;
+    font-size: 18px;
+    text-align: center;
+
+    @media screen and (max-width: 1024px) {
+      width: unset;
+    }
+  }
+
+  &__valores {
+    display: flex;
+    gap: 50px;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+  }
+
+  &__valor {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+    align-items: end;
+
+    &__texto {
+      font-size: 30px;
+      background-color: rgb(245, 170, 19);
+      border-radius: 4px;
+      padding: 8px;
+      height: max-content;
+    }
+
+    &__preco {
+      background-color: rgb(235, 230, 230);
+      color: rgb(36, 33, 33);
+      font-size: 40px;
+      border-radius: 8px;
+      padding: 2px 8px;
+    }
   }
 }
 
