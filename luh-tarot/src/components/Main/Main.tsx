@@ -114,8 +114,8 @@ const Main = () => {
           <p>
             O tarot mudou minha vida, passei a acreditar que a cartomancia é
             minha vida e a seguir direções e descobrir caminhos prósperos neste
-            mundo das cartas. Meu objetivo hoje, é mostrar às pessoas o quanto é
-            divinatório e eficaz são as carta, pois direcionam e mostram
+            mundo das cartas. Meu objetivo hoje é mostrar às pessoas o quanto
+            divinatório e eficaz são as cartas, pois direcionam e mostram
             tendências futuras, trazendo a resolução de onde há dúvidas, ao
             qual, o consulente não sabe como agir, muitas vezes é necessário
             tomar medidas sobre nossas vidas, e que, dificilmente conseguimos.

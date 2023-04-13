@@ -1,0 +1,13 @@
+.slick-session {
+  padding: 40px 120px;
+  background-color: gray;
+
+  @media screen and (max-width: 1024px) {
+    padding: 40px 20px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
