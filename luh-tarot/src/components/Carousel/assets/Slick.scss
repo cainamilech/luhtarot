@@ -1,13 +1,56 @@
 .slick-session {
-  padding: 40px 120px;
-  background-color: gray;
+  padding: 40px 120px 60px;
+  background-color: whitesmoke;
+  text-align: center;
 
-  @media screen and (max-width: 1024px) {
-    padding: 40px 20px;
+  @media screen and (max-width: 700px) {
+    padding: 20px 40px 40px;
   }
+
+  h3 {
+    background-color: rgb(247, 165, 1);
+    border-radius: 8px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 700px) {
+      font-size: 30px;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.slick-track {
+  display: flex;
+  gap: 10px;
 }
 
 .slick-prev:before,
 .slick-next:before {
   color: black;
+  font-size: 30px;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 10px;
+  }
+}
+
+.slick-dots li {
+  @media screen and (max-width: 1024px) {
+    width: 10px;
+  }
+}
+
+.slick-dots {
+  @media screen and (max-width: 1024px) {
+    position: inherit;
+  }
 }

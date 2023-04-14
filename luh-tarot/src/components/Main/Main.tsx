@@ -13,6 +13,8 @@ import whats from "./assets/imgs/whatsapp.svg";
 import lu1 from "./assets/imgs/lu1.jpg";
 import lu5 from "./assets/imgs/lu5.jpg";
 
+import Carousel from "../Carousel/Carousel";
+
 const Main = () => {
   return (
     <main className={main["main"]}>
@@ -85,7 +87,7 @@ const Main = () => {
           Chakras
         </h2>
 
-        <h2>
+        <h2 className={main["descricao__inferior"]}>
           Passeio Energético • Magia com Loções • Limpeza Espiritual • Banhos
           com Ervas Naturais
         </h2>
@@ -97,6 +99,7 @@ const Main = () => {
         <div>
           <div className={main["conteudo__h3"]}>
             <h3>SOBRE MIM</h3>
+            <div className={main["separador-pequeno-left"]}></div>
           </div>
 
           <p>
@@ -200,7 +203,7 @@ const Main = () => {
       <section id="atendimentos" className={main["conteudo2"]}>
         <div>
           <div className={main["conteudo2__h3"]}>
-            <h3>ATENDIMENTOS</h3>
+            <h3>Atendimentos</h3>
           </div>
 
           <h4>Como funciona uma consulta de Cartas de Tarot?</h4>
@@ -354,6 +357,10 @@ const Main = () => {
             </div>
           </a>
         </div>
+      </section>
+
+      <section id="feedbacks">
+        <Carousel />
       </section>
 
       <section id="contato" className={main["conteudo3"]}>

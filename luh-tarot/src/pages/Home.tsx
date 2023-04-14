@@ -2,7 +2,6 @@ import { FixedIcons } from "../components/FixedIcons/FixedIcons";
 import { Footer } from "../components/Footer/Footer";
 import { Header } from "../components/Header/Header";
 import { Main } from "../components/Main/Main";
-import Carousel from "../components/Carousel/Carousel";
 
 const Home = () => {
   return (
@@ -10,7 +9,6 @@ const Home = () => {
       <Header />
       <Main />
       <FixedIcons />
-      <Carousel />
       <Footer />
     </>
   );

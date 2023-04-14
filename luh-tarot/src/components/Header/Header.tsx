@@ -29,6 +29,10 @@ const Header = () => {
             <li>Atendimentos</li>
           </a>
 
+          <a href="#feedbacks">
+            <li>Feedbacks</li>
+          </a>
+
           <a href="#contato">
             <li>Contato</li>
           </a>
