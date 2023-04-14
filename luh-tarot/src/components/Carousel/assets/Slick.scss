@@ -33,6 +33,10 @@
 .slick-next:before {
   color: black;
   font-size: 30px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 20px;
+  }
 }
 
 .slick-prev,
