@@ -99,10 +99,19 @@
   background-color: black;
   padding: 50px 16px 30px;
   color: white;
+
+  @media screen and (max-width: 1024px) {
+    padding-top: 30px;
+  }
+
   h2 {
     font-weight: 400;
     font-size: 18px;
     text-align: center;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 16px;
+    }
   }
 
   &__inferior {
@@ -112,7 +121,7 @@
 
 /*SOBRE MIM*/
 .conteudo {
-  padding: 30px 120px 20px;
+  padding: 30px 120px 25px;
   color: black;
   background-color: whitesmoke;
   display: flex;
@@ -126,21 +135,22 @@
   }
 
   &__h3 {
-    /*background-image: url("../imgs/fundo.png");*/
     width: max-content;
-    /*padding: 4px;*/
     justify-content: flex-start;
-
     margin-bottom: 10px;
-    border-radius: 8px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 35px;
+
     @media screen and (max-width: 1024px) {
       font-size: 25px;
+      margin-top: 0;
     }
 
     h3 {
-      color: rgb(247, 165, 1);
-      /*padding: 5px 10px;*/
+      color: white;
+      background-color: rgb(247, 165, 1);
+      border-radius: 8px;
+      padding: 0 10px;
     }
   }
 

@@ -98,8 +98,7 @@ const Main = () => {
       <section id="sobre-mim" className={main["conteudo"]}>
         <div>
           <div className={main["conteudo__h3"]}>
-            <h3>SOBRE MIM</h3>
-            <div className={main["separador-pequeno-left"]}></div>
+            <h3>Sobre mim</h3>
           </div>
 
           <p>
@@ -135,13 +134,6 @@ const Main = () => {
             seu comportamento para as resoluções de suas dificuldades
             encontradas na sua vida atual, podendo assim, modificá-la, trazendo
             um futuro mais próspero.
-          </p>
-
-          <p>
-            Convido todos a quebrar paradigmas negativos dados aos tarólogos e
-            cartomantes, pois utilizamos destas forças: da mãe natureza, do
-            Universo e da espiritualidade para a cura e a felicidade próspera
-            para a vida de todos.
           </p>
         </div>
 
@@ -196,6 +188,13 @@ const Main = () => {
             para a solução de muitos caminhos para alcançar melhorias, realizar
             ações, conquistar desejos e sem dúvida alcançar a tão almejada
             prosperidade em nossas vidas.
+          </p>
+
+          <p>
+            Convido todos a quebrar paradigmas negativos dados aos tarólogos e
+            cartomantes, pois utilizamos destas forças: da mãe natureza, do
+            Universo e da espiritualidade para a cura e a felicidade próspera
+            para a vida de todos.
           </p>
         </div>
       </section>
