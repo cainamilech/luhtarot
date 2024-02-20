@@ -240,7 +240,7 @@ const Main = () => {
             </p>
           </div>
 
-          <div className={main["conteudo2__fundo"]}>
+          {/* <div className={main["conteudo2__fundo"]}>
             <p className={main["conteudo2__tiragem"]}>
               <strong>Tiragem Completa - Tempo médio: 1 hora | R$70,00</strong>
               <br />
@@ -249,7 +249,7 @@ const Main = () => {
               energia atual, logo, abertura de cartas. Respiração, oração de
               encerramento em agradecimento a Deus e aos mentores espirituais.
             </p>
-          </div>
+          </div> */}
 
           <div className={main["conteudo2__fundo"]}>
             <p className={main["conteudo2__tiragem"]}>
