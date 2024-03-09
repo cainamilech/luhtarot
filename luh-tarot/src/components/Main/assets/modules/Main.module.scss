@@ -286,7 +286,7 @@
     justify-content: center;
     background-color: rgb(247, 165, 1);
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     /*background-image: url("../imgs/fundo.png");
     width: max-content;
     padding: 6px;
@@ -307,7 +307,7 @@
   h4 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: black;
+    color: #292929;
 
     @media screen and (max-width: 1024px) {
       font-size: 18px;
@@ -318,10 +318,24 @@
     margin-bottom: 10px;
   }
 
+  &__agendar {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+
+    a {
+      background-color: rgb(247, 165, 1);
+      padding: 6px 10px;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+  }
+
   &__fundo {
-    background-image: url("../imgs/fundo.png");
+    /*background-image: url("../imgs/fundo.png");*/
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.6);
     padding: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border-radius: 18px;
   }
 
@@ -331,6 +345,28 @@
     padding: 10px;
     border-radius: 16px;
     /*box-shadow: 1px 1px 5px 1px black;*/
+
+    strong {
+      color: #292929;
+    }
+
+    &__exemplos {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+
+      div {
+        width: 50%;
+        @media screen and (max-width: 1024px) {
+          width: 100%;
+        }
+      }
+    }
+
+    img {
+      width: 32px;
+      margin-right: 5px;
+    }
   }
 
   &__opcoes {
@@ -365,9 +401,8 @@
         font-size: 24px;
         margin: 10px auto;
         width: max-content;
-        color: white;
+        color: rgb(247, 165, 1);
         padding: 5px 10px;
-        background-color: rgb(247, 165, 1);
         border-radius: 8px;
 
         @media screen and (max-width: 1024px) {

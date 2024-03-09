@@ -1,0 +1,16 @@
+.container {
+  padding: 50px;
+  color: white;
+  background-color: black;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  textarea {
+    width: 400px;
+    height: 200px;
+  }
+}

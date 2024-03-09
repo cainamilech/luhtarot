@@ -7,6 +7,9 @@ import youtube from "./assets/imgs/youtube.png";
 import email from "./assets/imgs/email.png";
 import whatsapp from "./assets/imgs/whatsapp.png";
 import kwai from "./assets/imgs/kwai.png";
+import bola from "./assets/imgs/bola-de-cristal.png";
+import online from "./assets/imgs/online.png";
+import presencial from "./assets/imgs/presencial.png";
 
 import whats from "./assets/imgs/whatsapp.svg";
 
@@ -14,6 +17,8 @@ import lu1 from "./assets/imgs/lu1.jpg";
 import lu5 from "./assets/imgs/lu5.jpg";
 
 import Carousel from "../Carousel/Carousel";
+
+import Formulario from "../Formulario/Formulario";
 
 const Main = () => {
   return (
@@ -83,13 +88,13 @@ const Main = () => {
 
       <div className={main["descricao"]}>
         <h2>
-          Tarot Terapêutico • Diálogo fraterno • Fluidoterapia • Alinhamento de
-          Chakras
+          Tarot Terapêutico • Diálogo fraterno • Passes de Fluidoterapia •
+          Alinhamento de Chakras
         </h2>
 
         <h2 className={main["descricao__inferior"]}>
-          Passeio Energético • Magia com Loções • Limpeza Espiritual • Banhos
-          com Ervas Naturais
+          Passeio Energético para Elevação da Frequência • Magia Natural •
+          Limpeza Espiritual • Banhos com Ervas Naturais
         </h2>
 
         <div className={main["separador-pequeno"]}></div>
@@ -161,8 +166,8 @@ const Main = () => {
           </p>
           <p>EADE (Estudo Aprofundado da Doutrina Espirita);</p>
           <p>TPEM (Trabalho espirita Mediúnico);</p>
-          <p>Fluidoterapia (passista);</p>
-          <p>Diálogo Fraterno (terapeuta Espiritual)</p>
+          <p>Fluidoterapia (Passista);</p>
+          <p>Diálogo Fraterno (Terapeuta Espiritual)</p>
         </div>
       </section>
 
@@ -205,7 +210,7 @@ const Main = () => {
             <h3>Atendimentos</h3>
           </div>
 
-          <h4>Como funciona uma consulta de Cartas de Tarot?</h4>
+          <h4>Como funciona uma consulta das cartas?</h4>
 
           <p className={main["conteudo2__paragrafo"]}>
             Nas consultas, tanto online como presencial, eu faço presente na
@@ -218,13 +223,27 @@ const Main = () => {
 
           <p className={main["conteudo2__paragrafo"]}>
             As consultas tem duração de aproximadamente 30 minutos á 1h30,
-            dependendo da tiragem contratada. Devem ser agendadas, mediante
-            pagamento comprovado.
+            dependendo da tiragem contratada e do tempo necessário para a
+            orientação. Devem ser agendadas, mediante pagamento comprovado.
           </p>
+
+          <div className={main["conteudo2__agendar"]}>
+            <a
+              href="https://wa.me/5553984279393"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Clique aqui para Agendar
+            </a>
+          </div>
 
           <div className={main["conteudo2__fundo"]}>
             <p className={main["conteudo2__tiragem"]}>
-              <strong>Tiragem completa - Tempo médio: 1h30min | R$90,00</strong>
+              <strong>
+                <img src={bola} alt="bola de cristal" />
+                Tiragem completa - Tempo médio: 1h | R$90,00
+              </strong>
+              <br />
               <br />
               Abertura com oração ao Divino Deus, respiração de alinhamento de
               chakras e passeio energético. À seguir, começamos nosso jogo,
@@ -254,9 +273,11 @@ const Main = () => {
           <div className={main["conteudo2__fundo"]}>
             <p className={main["conteudo2__tiragem"]}>
               <strong>
+                <img src={bola} alt="bola de cristal" />
                 Tiragem sobre um setor (Exemplo: Amor, Financeiro, Afetivo) -
                 Tempo médio: 30 minutos | R$50,00
               </strong>
+              <br />
               <br /> Abertura com oração ao Divino Deus. Respiração, cor e
               imagem. Abertura das cartas. Respiração, oração de encerramento em
               agradecimento a Deus e aos mentores espirituais.
@@ -265,46 +286,114 @@ const Main = () => {
 
           <div className={main["conteudo2__fundo"]}>
             <p className={main["conteudo2__tiragem"]}>
-              <strong>Tiragem de perguntas: </strong>
-              <br /> Podem ser: 1, 3, 5, 7 perguntas (valores á consultar)
-              Perguntas somente objetivas, não respondo setor, caso quiser,
-              contratar tiragem de 30 min. Respiração, imagem e cor, logo
-              abertura das cartas.
+              <strong>
+                <img src={bola} alt="bola de cristal" />
+                Tiragem de perguntas:{" "}
+              </strong>
+              <br />
+              <br /> Podem ser: 1, 2 ou 3 perguntas (pacotes de valores
+              promocionais) Perguntas somente objetivas, caso você quiser um
+              esclarecimento imediado e sanar dúvidade algum setor da sua vida.
+              Não respondo setor nessa tiragem, caso quiser, contratar tiragem
+              30 min e/ou 1h.
+              <br />
+              <br />
+              Respostas por áudio pós 20h (diariamente).
+              <br />
+              <br />
+              <strong>Roteiro:</strong> Elevação de frequência (respiração,
+              imagem e cor), logo abertura das cartas para as respostas
+              objetivas.
+              <br />
+              <br />
+              <strong>
+                Alguns exemplos de Perguntas Objetivas sobre alguns assuntos:
+              </strong>
+              <br />
+              <br />
+              <div className={main["conteudo2__tiragem__exemplos"]}>
+                <div>
+                  <img src={bola} alt="bola de cristal" />
+                  Trabalho
+                  <br />
+                  - Vou conseguir um emprego?
+                  <br />
+                  - Vou mudar de setor?
+                  <br />
+                  - Vou ganhar a promoção?
+                  <br />
+                  <br />
+                </div>
+                <div>
+                  <img src={bola} alt="bola de cristal" />
+                  Financeiro
+                  <br />
+                  - Tem aumento de salário previsto para mês (ou ano) que vem?
+                  <br />
+                  - Vou conseguir ganhar o processo esperado na justiça?
+                  <br />
+                  - Vou alcançar as metas exigidas da empresa?
+                  <br />
+                  <br />
+                </div>
+                <div>
+                  <img src={bola} alt="bola de cristal" />
+                  Amor
+                  <br />
+                  - Vem amor novo?
+                  <br />
+                  - Meu casamento vai dar certo?
+                  <br />
+                  - O que ele(a) sente por mim? Tem saudade? Vai me procurar?
+                  <br />
+                  - Vou reconciliar com meu(a) ex?
+                  <br />
+                  - Tem trabalho espiritual?
+                  <br />
+                  <br />
+                </div>
+                <div>
+                  <img src={bola} alt="bola de cristal" />
+                  Saúde
+                  <br />
+                  - O tratamento com medicamentos vai dar certo?
+                  <br />
+                  - A pessoa X vai melhorar?
+                  <br />
+                </div>
+              </div>
             </p>
           </div>
 
           <p>*Toda e qualquer consulta extremamente SIGILOSA.</p>
 
           <div className={main["conteudo2__opcoes"]}>
-            <div className={main["conteudo2__fundo"]}>
-              <div className={main["conteudo2__opcoes__online"]}>
-                <h5>ONLINE</h5>
+            <div className={main["conteudo2__opcoes__online"]}>
+              <img src={online} alt="atendimento online" />
+              <h5>Atendimento Online</h5>
 
-                <p>
-                  A energia e a vibração ultrapassam qualquer barreira de
-                  distância, pois o que vale é a FÉ, concentração e a intenção.
-                  No ato do agendamento, mediante pagamento comprovado, será
-                  enviado pré-requisitos que devem ser seguidos para o
-                  atendimento online. A consulta é feita por chamada de vídeo no
-                  WhatsApp.
-                </p>
-              </div>
+              <p>
+                A energia e a vibração ultrapassam qualquer barreira de
+                distância, pois o que vale é a FÉ, concentração e a intenção. No
+                ato do agendamento, mediante pagamento comprovado, será enviado
+                pré-requisitos que devem ser seguidos para o atendimento online.
+                A consulta é feita por chamada de vídeo no WhatsApp.
+              </p>
             </div>
 
-            <div className={main["conteudo2__fundo"]}>
-              <div className={main["conteudo2__opcoes__presencial"]}>
-                <h5>PRESENCIAL</h5>
+            <div className={main["conteudo2__opcoes__presencial"]}>
+              <img src={presencial} alt="atendimento presencial" />
+              <h5>Atendimento Presencial</h5>
 
-                <p>
-                  No ato do agendamento será dado as devidas explicações e
-                  tirada de possíveis dúvidas. Minha sala para atendimentos
-                  presenciais fica situado em Pelotas - RS fica na Avenida
-                  Ernani Osmar Blass 222 Apto 4, no Cohab Lindóia, Três Vendas.
-                  Conto com um ambiente confortável para que possa ter uma boa
-                  experiência na consulta. O pagamento pode ser realizado no dia
-                  da consulta, anterior ao atendimento.
-                </p>
-              </div>
+              <p>
+                No ato do agendamento será dado as devidas explicações e tirada
+                de possíveis dúvidas. Minha sala para atendimentos presenciais
+                fica situado em Pelotas - RS fica na Avenida Ernani Osmar Blass
+                222 Apto 4, no Cohab Lindóia, Três Vendas. Conto com um ambiente
+                confortável para que possa ter uma boa experiência na consulta.
+                O pagamento pode ser realizado no dia da consulta, anterior ao
+                atendimento.
+              </p>
             </div>
           </div>
         </div>
@@ -348,7 +437,7 @@ const Main = () => {
           >
             <div className={main["conteudovendas__valor"]}>
               <span className={main["conteudovendas__valor__texto"]}>
-                2 perguntas
+                3 perguntas
               </span>
               <span className={main["conteudovendas__valor__preco"]}>
                 R$ 20,00
@@ -357,6 +446,10 @@ const Main = () => {
           </a>
         </div>
       </section>
+
+      {/*<section>
+        <Formulario />
+              </section>*/}
 
       <section id="feedbacks">
         <Carousel />
@@ -420,7 +513,7 @@ const Main = () => {
             </a>
 
             <li>
-              <img src={whatsapp} alt="whatsapp" /> WhatsApp: 53 8427-9393
+              <img src={whatsapp} alt="whatsapp" /> WhatsApp: 53 98427-9393
             </li>
 
             <li>
