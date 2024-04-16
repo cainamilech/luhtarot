@@ -125,5 +125,3 @@ const Formulario: React.FC = () => {
     </div>
   );
 };
-
-export default Formulario;

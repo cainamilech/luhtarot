@@ -1,7 +1,7 @@
 /*BANNER*/
 .banner {
   width: 100%;
-  height: 520px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -16,29 +16,41 @@
 
   @media screen and (max-width: 480px) {
     background-image: url("../imgs/lufundo.jpg");
+    justify-content: flex-end;
+    align-items: flex-start;
     background-position: bottom;
     padding: 16px;
-    gap: 15px;
-    height: 500px;
+    gap: 10px;
+    height: 550px;
   }
 
   h1 {
-    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
     margin-bottom: -20px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
 
     @media screen and (max-width: 1024px) {
-      margin-top: 140px;
-      font-size: 30px;
+      padding: 0;
+      background-color: unset;
+      font-size: 32px;
       margin-bottom: 0px;
+      text-align: left;
+      width: 90%;
+      color: white;
     }
   }
 
   p {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 700;
-    background: rgba(8, 8, 8, 0.5);
-    padding: 10px;
-    border-radius: 15px;
+    background-color: white;
+    color: black;
+    /*background: rgba(8, 8, 8, 0.5);*/
+    padding: 6px;
+    /*border-radius: 15px;*/
 
     @media screen and (max-width: 1024px) {
       font-size: 14px;
@@ -63,6 +75,23 @@
     }
   }
 
+  &__formulario {
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 14px;
+      background: rgba(8, 8, 8, 0.5);
+    }
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
   &__redes {
     display: flex;
     flex-direction: column;
@@ -74,6 +103,10 @@
     color: rgb(199, 194, 194);
     padding: 10px;
     border-radius: 15px;
+
+    @media screen and (max-width: 1024px) {
+      align-items: flex-start;
+    }
 
     small {
       @media screen and (max-width: 1024px) {
@@ -100,7 +133,7 @@
 .descricao {
   justify-content: center;
   background-color: black;
-  padding: 50px 16px 30px;
+  padding: 75px 16px 60px;
   color: white;
 
   @media screen and (max-width: 1024px) {

@@ -18,7 +18,7 @@ import lu5 from "./assets/imgs/lu5.jpg";
 
 import Carousel from "../Carousel/Carousel";
 
-import Formulario from "../Formulario/Formulario";
+import FormularioEmail from "../FormularioEmail/FormularioEmail";
 
 const Main = () => {
   return (
@@ -26,12 +26,11 @@ const Main = () => {
       <div className={main["separador"]}></div>
       <section className={main["banner"]}>
         <h1>ESPECIALISTA EM TAROT ESPIRITUAL</h1>
-
         <p>ATENDIMENTOS ONLINE E PRESENCIAIS</p>
-
+        <a className={main["banner__formulario"]} href="">
+          Formulário de Atendimento
+        </a>
         <div className={main["banner__redes"]}>
-          <small>ACOMPANHE AS REDES SOCIAIS PARA LIVES E DICAS</small>
-
           <ul>
             <a
               href="https://www.instagram.com/luhtarot/"
@@ -83,6 +82,8 @@ const Main = () => {
               </li>
             </a>
           </ul>
+
+          <small>ACOMPANHE REDES SOCIAIS PARA LIVES E DICAS</small>
         </div>
       </section>
 
@@ -447,9 +448,9 @@ const Main = () => {
         </div>
       </section>
 
-      {/*<section>
-        <Formulario />
-              </section>*/}
+      <section>
+        <FormularioEmail />
+      </section>
 
       <section id="feedbacks">
         <Carousel />
