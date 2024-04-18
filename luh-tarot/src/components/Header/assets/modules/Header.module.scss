@@ -39,6 +39,7 @@
       display: flex;
       justify-content: space-between;
       gap: 35px;
+      font-size: 14px;
 
       li {
         padding: 5px;
@@ -48,6 +49,21 @@
           padding-bottom: 2px;
         }
       }
+    }
+  }
+
+  &__formulario {
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid rgb(247, 165, 1);
+    border-radius: 15px;
+
+    &:hover {
+      background-color: rgb(247, 165, 1);
+    }
+
+    @media screen and (max-width: 1024px) {
+      display: none;
     }
   }
 }

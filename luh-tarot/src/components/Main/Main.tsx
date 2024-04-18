@@ -83,7 +83,7 @@ const Main = () => {
             </a>
           </ul>
 
-          <small>ACOMPANHE REDES SOCIAIS PARA LIVES E DICAS</small>
+          <small>SIGA REDES SOCIAIS PARA LIVES E DICAS</small>
         </div>
       </section>
 
@@ -377,10 +377,13 @@ const Main = () => {
 
               <p>
                 A energia e a vibração ultrapassam qualquer barreira de
-                distância, pois o que vale é a FÉ, concentração e a intenção. No
-                ato do agendamento, mediante pagamento comprovado, será enviado
-                pré-requisitos que devem ser seguidos para o atendimento online.
-                A consulta é feita por chamada de vídeo no WhatsApp.
+                distância, pois o importante é a fé, a concentração e a
+                intenção. Você tem a opção de fazer a consulta por chamada de
+                vídeo no WhatsApp. (No ato do agendamento, mediante pagamento
+                comprovado, será enviado pré-requisitos que devem ser seguidos
+                para o atendimento). Ou pode escolher pelo atendimento via
+                e-mail, a partir do preenchimento de formulário, no qual está
+                explicado <a href="#formulario">abaixo</a>.
               </p>
             </div>
 

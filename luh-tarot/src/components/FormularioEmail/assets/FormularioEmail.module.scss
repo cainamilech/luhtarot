@@ -1,28 +1,48 @@
 .container {
   background-color: whitesmoke;
-  padding: 120px 50px;
+  padding: 100px 120px 120px;
   display: flex;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    padding: 32px 16px;
+  }
 
   label {
     font-size: 14px;
   }
 
   &__texts {
-    width: 50%;
+    width: 55%;
     margin-right: 40px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-size: 14px;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      margin: 0;
+    }
+
     h3 {
       color: rgb(247, 165, 1);
       font-size: 30px;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 26px;
+      }
     }
 
     figure {
       display: flex;
       justify-content: center;
       margin-top: 30px;
+
+      @media screen and (max-width: 1024px) {
+        margin-top: 10px;
+      }
+
       img {
         width: 200px;
       }
@@ -30,10 +50,15 @@
   }
 
   &__forms {
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
 
     &__nome,
     &__data,
@@ -75,6 +100,7 @@
       padding: 3px 6px;
       font-size: 16px;
       margin-bottom: 10px;
+      margin-top: 4px;
       color: var(--gray);
 
       &:focus {
@@ -90,15 +116,15 @@
       cursor: pointer;
       background-color: rgb(247, 165, 1);
       border: none;
-
-      &:active {
-        background-color: green;
-        transition-duration: 1s;
-      }
+      margin-bottom: 3px;
 
       &:hover {
         background-color: orange;
       }
+    }
+
+    span {
+      text-align: center;
     }
   }
 }

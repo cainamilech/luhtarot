@@ -52,7 +52,7 @@ const FormularioEmail = () => {
       setMensagem("Selecione uma opção de tiragem.");
       return;
     }
-    setMensagem("enviando");
+    setMensagem("Enviando Formulário...");
 
     emailjs
       .sendForm("service_yh98h1r", "template_p20t00e", form.current, {
@@ -121,8 +121,8 @@ const FormularioEmail = () => {
         </p>
 
         <p>
-          <strong>Sobre um setor:</strong> Escolha um setor, como Amor,
-          Financeiro, Saúde, Família, Afetivo, ou outro do seu interesse.
+          <strong>Sobre um setor:</strong> Escolha um setor como amor,
+          financeiro, saúde, família, afetivo, ou outro do seu interesse.
         </p>
 
         <p>
