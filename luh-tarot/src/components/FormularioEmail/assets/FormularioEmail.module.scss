@@ -1,3 +1,104 @@
 .container {
-  background-color: red;
+  background-color: whitesmoke;
+  padding: 120px 50px;
+  display: flex;
+
+  label {
+    font-size: 14px;
+  }
+
+  &__texts {
+    width: 50%;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    h3 {
+      color: rgb(247, 165, 1);
+      font-size: 30px;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      img {
+        width: 200px;
+      }
+    }
+  }
+
+  &__forms {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    &__nome,
+    &__data,
+    &__celular,
+    &__email {
+      height: 32px;
+      margin-bottom: 5px;
+      border-radius: 8px;
+      border: 1px solid var(--gray-400);
+      padding: 2px 6px;
+      font-size: 16px;
+      color: var(--gray);
+
+      &:focus {
+        outline-color: rgb(247, 165, 1);
+      }
+
+      &::placeholder {
+        color: var(--gray-400);
+      }
+    }
+
+    &__tiragens {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      input {
+        margin-right: 3px;
+      }
+    }
+
+    &__mensagem {
+      height: 150px;
+      border-radius: 8px;
+      border: 1px solid var(--gray-400);
+      padding: 3px 6px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: var(--gray);
+
+      &:focus {
+        outline-color: rgb(247, 165, 1);
+      }
+    }
+
+    &__botao {
+      border-radius: 8px;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: rgb(247, 165, 1);
+      border: none;
+
+      &:active {
+        background-color: green;
+        transition-duration: 1s;
+      }
+
+      &:hover {
+        background-color: orange;
+      }
+    }
+  }
 }

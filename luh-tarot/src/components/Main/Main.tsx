@@ -27,7 +27,7 @@ const Main = () => {
       <section className={main["banner"]}>
         <h1>ESPECIALISTA EM TAROT ESPIRITUAL</h1>
         <p>ATENDIMENTOS ONLINE E PRESENCIAIS</p>
-        <a className={main["banner__formulario"]} href="">
+        <a className={main["banner__formulario"]} href="#formulario">
           Formulário de Atendimento
         </a>
         <div className={main["banner__redes"]}>
@@ -275,13 +275,15 @@ const Main = () => {
             <p className={main["conteudo2__tiragem"]}>
               <strong>
                 <img src={bola} alt="bola de cristal" />
-                Tiragem sobre um setor (Exemplo: Amor, Financeiro, Afetivo) -
-                Tempo médio: 30 minutos | R$50,00
+                Tiragem sobre um setor (Exemplo: Amor, Financeiro, Saúde,
+                Família) - Tempo médio: 30 minutos | R$50,00
               </strong>
               <br />
-              <br /> Abertura com oração ao Divino Deus. Respiração, cor e
-              imagem. Abertura das cartas. Respiração, oração de encerramento em
-              agradecimento a Deus e aos mentores espirituais.
+              <br /> Escolha um setor, como Amor, Financeiro, Saúde, Família,
+              Afetivo, ou outro do seu interesse. Abertura com oração ao Divino
+              Deus. Respiração, cor e imagem. Abertura das cartas. Respiração,
+              oração de encerramento em agradecimento a Deus e aos mentores
+              espirituais.
             </p>
           </div>
 
@@ -294,7 +296,7 @@ const Main = () => {
               <br />
               <br /> Podem ser: 1, 2 ou 3 perguntas (pacotes de valores
               promocionais) Perguntas somente objetivas, caso você quiser um
-              esclarecimento imediado e sanar dúvidade algum setor da sua vida.
+              esclarecimento imediado e sanar dúvida de algum setor da sua vida.
               Não respondo setor nessa tiragem, caso quiser, contratar tiragem
               30 min e/ou 1h.
               <br />
