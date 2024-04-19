@@ -30,8 +30,12 @@
     margin-bottom: -20px;
     /*background-color: white;*/
     /*color: black;*/
-
     @media screen and (max-width: 1024px) {
+      text-align: center;
+      font-size: 32px;
+    }
+
+    @media screen and (max-width: 500px) {
       padding: 0;
       background-color: unset;
       font-size: 32px;

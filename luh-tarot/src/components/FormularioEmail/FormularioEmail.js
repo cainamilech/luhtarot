@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import formulario from "./assets/FormularioEmail.module.scss";
 import mercadopago from "./imgs/mercado-pago.png";
@@ -9,6 +9,24 @@ const FormularioEmail = () => {
   const [tipoMensagem, setTipoMensagem] = useState(""); // Novo estado para o tipo de mensagem
   const [opcaoSelecionada, setOpcaoSelecionada] = useState("");
   //const [isLoading, setIsLoading] = useState(false); // Estado para indicar se o formulário está sendo enviado
+  const [pagamentoEfetuado, setPagamentoEfetuado] = useState(false);
+
+  useEffect(() => {
+    // Função para verificar a hash quando o componente é montado
+    const checkHash = () => {
+      if (window.location.hash === "#pagamentoefetuado") {
+        setPagamentoEfetuado(true);
+      }
+    };
+
+    checkHash(); // Verificar a hash quando o componente é montado
+
+    // Adiciona um listener para verificar a hash quando ela mudar
+    window.addEventListener("hashchange", checkHash);
+
+    // Limpeza do listener quando o componente é desmontado
+    return () => window.removeEventListener("hashchange", checkHash);
+  }, []);
 
   const handleRadioChange = (e) => {
     setOpcaoSelecionada(e.target.value);
@@ -22,6 +40,10 @@ const FormularioEmail = () => {
     } else {
       messageTextArea.value = ""; // Limpa o textarea se outra opção for selecionada
     }
+  };
+
+  const closeModal = () => {
+    setPagamentoEfetuado(false);
   };
 
   const sendEmail = (e) => {
@@ -70,12 +92,12 @@ const FormularioEmail = () => {
           setTimeout(() => {
             console.log("Redirecionando...");
             const linkRedirecionamento = {
-              "1pergunta": "https://www.instagram.com/",
-              "3perguntas": "link_opcao_3perguntas",
-              "pergunta-setor": "link_opcao_pergunta-setor",
-              "previsao-anual": "link_opcao_previsao-anual",
-              "previsao-mensal": "link_opcao_previsao-mensal",
-              "pergunta-geral": "link_opcao_pergunta-geral",
+              "1pergunta": "https://mpago.la/1y1UFw9",
+              "3perguntas": "https://mpago.la/2VyFQQm",
+              "pergunta-setor": "https://mpago.la/29vQ5iC",
+              "previsao-anual": "https://mpago.la/2mojrZp",
+              "previsao-mensal": "https://mpago.la/2mojrZp",
+              "pergunta-geral": "https://mpago.la/2xZoYzt",
             }[opcaoSelecionada];
             console.log("Link de redirecionamento:", linkRedirecionamento);
             window.location.href = linkRedirecionamento;
@@ -269,6 +291,24 @@ const FormularioEmail = () => {
           {mensagem}
         </span>
       </form>
+
+      <div
+        className={formulario["modal"]}
+        style={{ display: pagamentoEfetuado ? "block" : "none" }}
+      >
+        <div className={formulario["modal-content"]}>
+          <span className={formulario["close"]} onClick={closeModal}>
+            &times;
+          </span>
+          <p>
+            <strong>✓</strong> Pagamento efetuado com sucesso! Em até 24 horas,
+            você receberá em no e-mail a sua tiragem solicitada.
+          </p>
+          <figure>
+            <img src={mercadopago} alt="logo do mercado pago" />
+          </figure>
+        </div>
+      </div>
     </section>
   );
 };
