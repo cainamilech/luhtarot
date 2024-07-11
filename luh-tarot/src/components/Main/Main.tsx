@@ -276,7 +276,7 @@ const Main = () => {
               <strong>
                 <img src={bola} alt="bola de cristal" />
                 Tiragem sobre um setor (Exemplo: Amor, Financeiro, Saúde,
-                Família) - Tempo médio: 30 minutos | R$50,00
+                Família) - Tempo médio: 30 minutos | R$60,00
               </strong>
               <br />
               <br /> Escolha um setor, como Amor, Financeiro, Saúde, Família,
