@@ -25,7 +25,7 @@ const Main = () => {
     <main className={main["main"]}>
       <div className={main["separador"]}></div>
       <section className={main["banner"]}>
-        <h1>ESPECIALISTA EM TAROT ESPIRITUAL</h1>
+        <h1>ESPECIALISTA EM TAROT AMOROSO</h1>
         <p>ATENDIMENTOS ONLINE E PRESENCIAIS</p>
         <a className={main["banner__formulario"]} href="#formulario">
           Formulário de Atendimento
@@ -168,7 +168,8 @@ const Main = () => {
           <p>EADE (Estudo Aprofundado da Doutrina Espirita);</p>
           <p>TPEM (Trabalho espirita Mediúnico);</p>
           <p>Fluidoterapia (Passista);</p>
-          <p>Diálogo Fraterno (Terapeuta Espiritual)</p>
+          <p>Diálogo Fraterno (Terapeuta Espiritual);</p>
+          <p>Reiki do Sistema Usui Tibetano;</p>
         </div>
       </section>
 
@@ -276,7 +277,7 @@ const Main = () => {
               <strong>
                 <img src={bola} alt="bola de cristal" />
                 Tiragem sobre um setor (Exemplo: Amor, Financeiro, Saúde,
-                Família) - Tempo médio: 30 minutos | R$60,00
+                Família) - Tempo médio: 30 minutos | R$62,00
               </strong>
               <br />
               <br /> Escolha um setor, como Amor, Financeiro, Saúde, Família,
