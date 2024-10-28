@@ -25,7 +25,7 @@ const Main = () => {
     <main className={main["main"]}>
       <div className={main["separador"]}></div>
       <section className={main["banner"]}>
-        <h1>ESPECIALISTA EM TAROT AMOROSO</h1>
+        <h1>TAROT ESPIRITUAL ESPECIALISTA EM AMOR</h1>
         <p>ATENDIMENTOS ONLINE E PRESENCIAIS</p>
         <a className={main["banner__formulario"]} href="#formulario">
           Formulário de Atendimento
