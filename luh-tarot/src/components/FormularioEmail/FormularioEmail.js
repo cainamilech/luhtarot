@@ -228,7 +228,7 @@ const FormularioEmail = () => {
               value="3perguntas"
               onChange={handleRadioChange}
             />
-            Três Perguntas Objetivas (R$ 20,00)
+            Três Perguntas Objetivas (R$ 25,00)
           </label>
 
           <label>
@@ -248,7 +248,7 @@ const FormularioEmail = () => {
               value="previsao-anual"
               onChange={handleRadioChange}
             />
-            Previsão Anual (R$ 50,00)
+            Previsão Anual (R$ 62,00)
           </label>
 
           <label>
@@ -258,7 +258,7 @@ const FormularioEmail = () => {
               value="previsao-mensal"
               onChange={handleRadioChange}
             />
-            Previsão Mensal (R$ 50,00)
+            Previsão Mensal (R$ 62,00)
           </label>
 
           <label>

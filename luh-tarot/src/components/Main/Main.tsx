@@ -242,7 +242,7 @@ const Main = () => {
             <p className={main["conteudo2__tiragem"]}>
               <strong>
                 <img src={bola} alt="bola de cristal" />
-                Tiragem completa - Tempo médio: 1h | R$90,00
+                Tiragem completa - Tempo médio: 1h | R$110,00
               </strong>
               <br />
               <br />
@@ -446,7 +446,7 @@ const Main = () => {
                 3 perguntas
               </span>
               <span className={main["conteudovendas__valor__preco"]}>
-                R$ 20,00
+                R$ 25,00
               </span>
             </div>
           </a>
